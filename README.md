@@ -19,16 +19,29 @@ npm start
 
 
 3. pet-shop-tutorial(기부 페이지 - localhost:3002)
-: 파워쉘(관리자모드) 켜
+:
+파워쉘(관리자모드) 켜
+
 가나슈도 켜(quick start)
+
 파워쉘 cd - pet shot tutorial 로 와
+
 cd migrations
+
 truffle migrate
+
 cd ..
+
 cd test
+
 truffle test
+
 메타마스크를 켜
+
 계정 가져오기를 해
+
 가나슈에서 가져와
+
 cd ..
+
 펫샵튜토리얼에서 npm run dev
