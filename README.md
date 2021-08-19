@@ -24,9 +24,8 @@
 
 
 ### 3. pet-shop-tutorial(기부 페이지 - localhost:3002)
-3-1. 파워쉘(관리자모드) 켜
-
-3-2. 가나슈도 켜(quick start)
+3-1) 파워쉘(관리자모드) 켜
+3-2) 가나슈도 켜(quick start)
 
 3-3. 파워쉘 cd - pet shot tutorial 로 와
 
