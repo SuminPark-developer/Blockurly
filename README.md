@@ -8,21 +8,19 @@
 
 
 1. myclone-marketkurly(블록컬리 홈페이지 - localhost:3000)
-:터미널에서 npm run start 하면 끝.
+1-1. 터미널에서 npm run start 하면 끝.
 
 
 2. Ethereum-TodoList-React-master(유통과정 올리는 페이지 - localhost:3001)
-: 터미널에서 cd Ethereum-TodoList-React-master
-truffle migrate
-가나슈에서 private Key 가져오기
-npm start
+2-1. 터미널에서 cd Ethereum-TodoList-React-master
+2-2. truffle migrate
+2-3. 가나슈에서 private Key 가져오기
+2-4. npm start
 
 
 3. pet-shop-tutorial(기부 페이지 - localhost:3002)
-:
-파워쉘(관리자모드) 켜
-
-가나슈도 켜(quick start)
+3-1. 파워쉘(관리자모드) 켜
+3-2. 가나슈도 켜(quick start)
 
 파워쉘 cd - pet shot tutorial 로 와
 
