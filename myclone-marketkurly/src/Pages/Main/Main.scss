@@ -1,0 +1,202 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .go-top {
+    background: url("https://res.kurly.com/pc/service/common/1903/btn_pagetop_v2.png")
+      no-repeat 50% 50%;
+
+    position: fixed;
+    z-index: 300;
+    right: 30px;
+    bottom: 15px;
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    transition: bottom 0.5s;
+  }
+
+  .quick-menu {
+    position: absolute;
+    float: right;
+    right: 30px;
+    width: 80px;
+    z-index: 1;
+    transition: top 0.2s;
+    // z-index: 100;
+
+    .float {
+      position: absolute;
+    }
+
+    .side-menu {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+
+      span {
+        display: block;
+        border-top: 1px solid #ddd;
+        background-color: #fff;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        height: 23px;
+        padding-top: 5px;
+      }
+    }
+  }
+
+  .main-font {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+    text-align: center;
+    padding: 79px 0 35px;
+  }
+
+  .img-bottom {
+    width: 1050px;
+  }
+
+  .goods-item {
+    position: relative;
+    display: flex;
+    justify-content: right;
+
+    li {
+      list-style: none;
+      height: 506px;
+      margin-right: 18px;
+      font-size: 16px;
+    }
+
+    img {
+      width: 249px;
+      height: 320px;
+    }
+
+    .recipe-img {
+      width: 338px;
+      height: 255px;
+    }
+
+    .insta-img {
+      width: 175px;
+      height: 175px;
+    }
+  }
+
+  .md-cate-button {
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f6;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4.5px 20px 4.5px 19px;
+    margin: 0 5px 20px 5px;
+
+    &:hover {
+      border: 1px solid #f7f3f7;
+      background-color: #f7f3f8;
+      color: #5f0080;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .sale-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 62px;
+    height: 54px;
+    background-color: #9c70be;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      span {
+        font-weight: 900;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .md-cate-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .zoom-in {
+    &:hover {
+      transform: scale(1.02);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  .btn-scroll {
+    z-index: 10;
+    position: absolute;
+    top: 130px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+    &-left {
+      left: -30px;
+      background: url("https://res.kurly.com/pc/service/main/1908/btn_prev_default.png?v=1")
+        no-repeat;
+    }
+    &-right {
+      right: -30px;
+      border: none;
+      background: url("https://res.kurly.com/pc/service/main/1908/btn_next_default.png?v=1")
+        no-repeat;
+    }
+  }
+
+  .banner {
+    margin: 0 auto;
+    width: 1050px;
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+
+    &-title {
+      color: rgb(52, 75, 87);
+      padding: 35px 50px 0;
+      font-size: 28px;
+      line-height: 28px;
+      padding: 35px 50px 0 50px;
+      font-weight: 500;
+    }
+
+    &-subtitle {
+      padding: 5px 50px 0 50px;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgb(52, 75, 87);
+      padding-bottom: 38px;
+      font-weight: 500;
+    }
+  }
+}
