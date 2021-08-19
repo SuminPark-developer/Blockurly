@@ -1,6 +1,4 @@
-# Blockurly
-# 블록컬리
-
+# 블록컬리 Blockurly
 
 
 ## 실행 순서
