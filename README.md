@@ -25,26 +25,27 @@
 
 ### 3. pet-shop-tutorial(기부 페이지 - localhost:3002)
 3-1. 파워쉘(관리자모드) 켜
+
 3-2. 가나슈도 켜(quick start)
 
-파워쉘 cd - pet shot tutorial 로 와
+3-3. 파워쉘 cd - pet shot tutorial 로 와
 
-cd migrations
+3-4. cd migrations
 
-truffle migrate
+3-5. truffle migrate
 
-cd ..
+3-6. cd ..
 
-cd test
+3-7. cd test
 
-truffle test
+3-8. truffle test
 
-메타마스크를 켜
+3-9. 메타마스크를 켜
 
-계정 가져오기를 해
+3-10. 계정 가져오기를 해
 
-가나슈에서 가져와
+3-11. 가나슈에서 가져와
 
-cd ..
+3-12. cd ..
 
-펫샵튜토리얼에서 npm run dev
+3-13. 펫샵튜토리얼에서 npm run dev
