@@ -8,13 +8,18 @@
 
 
 1. myclone-marketkurly(블록컬리 홈페이지 - localhost:3000)
+
 1-1. 터미널에서 npm run start 하면 끝.
 
 
 2. Ethereum-TodoList-React-master(유통과정 올리는 페이지 - localhost:3001)
+
 2-1. 터미널에서 cd Ethereum-TodoList-React-master
+
 2-2. truffle migrate
+
 2-3. 가나슈에서 private Key 가져오기
+
 2-4. npm start
 
 
